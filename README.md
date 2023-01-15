@@ -12,7 +12,7 @@ Open Science Session at BU
 * gitkraken
 * facilitates working on mutiple machines
 * easy websites with github pages
-
+* distribute files (e.g., supplementary materials for a journal article)
 
 ## Cons
 * can't see inside docx and xlsx 
