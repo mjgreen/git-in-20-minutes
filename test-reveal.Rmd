@@ -1,0 +1,286 @@
+---
+title: "Demo of revealjs faded/highlighted incremental bullets"
+author: Matt Green
+output:
+  revealjs::revealjs_presentation:
+    theme: default
+    highlight: pygments
+    
+---
+
+# Setup 1
+
+<style>
+  .reveal .slides section .fragment {
+	  opacity: 0.25;
+		visibility: visible;
+	}
+	.reveal ul {
+    display: block;
+    margin-left: 20%; 
+  }
+  .reveal ol {
+    display: block;
+    margin-left: 20%; 
+  }
+</style>
+
+First we hack the definition of a fragment, and the definition of unordered and ordered lists, thus:
+
+```{html}
+<style>
+  .reveal .slides section .fragment {
+      opacity: 0.25;
+      visibility: visible;
+  }
+  .reveal ul {
+    display: block;
+    margin-left: 20%; 
+  }
+  .reveal ol {
+    display: block;
+    margin-left: 20%; 
+  }
+</style>
+```
+
+This makes fragments start faded, and start visible (the default is that fragments start invisible, and are called into being with a cursor key)
+
+# Paragraph fragments
+
+Using raw html in the Rmarkdown, and &lt;p&gt; tags
+
+<section>
+	<span class="fragment">
+		<p class="fragment  semi-fade-out">first point</p>	
+	</span>
+	<span class="fragment">
+		<p class="fragment  semi-fade-out">second point</p>	
+	</span>
+</section>
+
+# Bullet fragments
+
+Using raw html and &lt;li&gt; tags.
+
+<section>
+	<span class="fragment">
+		<li class="fragment  semi-fade-out">first point</li>	
+	</span>
+	<span class="fragment">
+		<li class="fragment  semi-fade-out">second point</li>	
+	</span>
+</section>
+
+# Leave off section
+
+Leave off enclosing &lt;section&gt; tags: works
+
+<span class="fragment">
+	<li class="fragment  semi-fade-out">first point</li>	
+</span>
+<span class="fragment">
+	<li class="fragment  semi-fade-out">second point</li>	
+</span>
+
+
+# Use fenced divs instead of html
+
+::: semi-fade-out
+:::: fragment
+* point 1
+::::
+:::
+::: semi-fade-out
+:::: fragment
+* point 2
+::::
+:::
+
+# foo
+
+::: fragment
+:::: {.fragment .semi-fade-out}
+* yogi bear
+::::
+:::
+::: fragment
+:::: {.fragment .semi-fade-out}
+* giyo
+::::
+:::
+
+
+
+# Nested fenced divs
+
+::: semi-fade-out
+:::: fragment
+* My first point
+::::
+:::
+::: semi-fade-out
+:::: fragment
+* My next  point
+::::
+:::
+
+# Spans
+
+[great point]{.fragment .semi-fade-out}
+
+[great point]{.semi-fade-out .fragment }
+
+<!-- # Highligt current -->
+
+<!-- ::: {.fragment .highlight-current-blue} -->
+<!-- First point -->
+<!-- ::: -->
+<!-- ::: {.fragment .highlight-current-blue} -->
+<!-- Next point -->
+<!-- ::: -->
+
+<!-- # Fade in then out -->
+
+<!-- ::: {.fragment .fade-in-then-out} -->
+<!-- First point -->
+<!-- ::: -->
+<!-- ::: {.fragment .fade-in-then-out} -->
+<!-- Next point -->
+<!-- ::: -->
+
+<!-- # foo -->
+
+<!-- <p class="fragment">Fade in</p> -->
+<!-- <p class="fragment fade-out">Fade out</p> -->
+<!-- <p class="fragment highlight-red">Highlight red</p> -->
+<!-- <p class="fragment fade-in-then-out">Fade in, then out</p> -->
+<!-- <p class="fragment fade-up">Slide up while fading in</p> -->
+
+<!-- # bar -->
+
+<!-- <p class="fragment">Fade in</p> -->
+<!-- <p class="fragment fade-out">Fade out</p> -->
+<!-- <p class="fragment highlight-red">Highlight red</p> -->
+<!-- <p class="fragment current-visible">Fade in, then out</p> -->
+<!-- <p class="fragment fade-up">Slide up while fading in</p> -->
+
+<!-- # daz -->
+
+<!-- <section> -->
+<!--     <h3>my title</h3> -->
+<!--     <ul> -->
+<!--         <li class="fragment semi-fade-out" data-fragment-index="1"> -->
+<!--             Point 1 -->
+<!--         </li> -->
+<!--         <li class="fragment semi-fade-out" data-fragment-index="2"> -->
+<!--             Point 2 -->
+<!--         </li> -->
+<!--         <li class="fragment semi-fade-out" data-fragment-index="3"> -->
+<!--             Point 3 -->
+<!--         </li> -->
+<!--         <li class="fragment semi-fade-out" data-fragment-index="4"> -->
+<!--             Point 4 -->
+<!--         </li> -->
+<!--         <li class="fragment semi-fade-out" data-fragment-index="5"> -->
+<!--             Point 5 -->
+<!--         </li> -->
+<!--     </ul> -->
+<!-- </section> -->
+
+<!-- # daz semi fade in -->
+
+<!-- <section> -->
+<!--     <h3>my title</h3> -->
+<!--     <ul> -->
+<!--         <li class="fragment semi-fade-in" data-fragment-index="1"> -->
+<!--             Point 1 -->
+<!--         </li> -->
+<!--         <li class="fragment semi-fade-in" data-fragment-index="2"> -->
+<!--             Point 2 -->
+<!--         </li> -->
+<!--         <li class="fragment semi-fade-in" data-fragment-index="3"> -->
+<!--             Point 3 -->
+<!--         </li> -->
+<!--         <li class="fragment semi-fade-in" data-fragment-index="4"> -->
+<!--             Point 4 -->
+<!--         </li> -->
+<!--         <li class="fragment semi-fade-in" data-fragment-index="5"> -->
+<!--             Point 5 -->
+<!--         </li> -->
+<!--     </ul> -->
+<!-- </section> -->
+
+<!-- # Pausing using pandoc syntax -->
+
+<!-- content before the pause -->
+
+<!-- . . . -->
+
+<!-- content after the pause -->
+
+<!-- . . . -->
+
+<!-- Content after another pause -->
+
+<!-- # Various -->
+
+<!-- <section> -->
+<!-- 	<p class="fragment grow">grow</p> -->
+<!-- 	<p class="fragment shrink">shrink</p> -->
+<!-- 	<p class="fragment fade-out">fade-out</p> -->
+<!-- 	<p class="fragment fade-up">fade-up (also down, left and right!)</p> -->
+<!-- 	<p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p> -->
+<!-- 	<p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p> -->
+<!-- 	<p class="fragment highlight-current-blue">blue only once</p> -->
+<!-- 	<p class="fragment highlight-red">highlight-red</p> -->
+<!-- 	<p class="fragment highlight-green">highlight-green</p> -->
+<!-- 	<p class="fragment highlight-blue">highlight-blue</p> -->
+<!-- </section> -->
+
+<!-- # Next -->
+
+<!-- ## Getting up -->
+
+<!-- - Turn off alarm -->
+<!-- - Get out of bed -->
+
+<!-- ## Breakfast -->
+
+<!-- - Eat eggs -->
+<!-- - Drink coffee -->
+
+<!-- # In the evening -->
+
+<!-- ## Dinner -->
+
+<!-- - Eat spaghetti -->
+<!-- - Drink wine -->
+
+<!-- ## Going to sleep -->
+
+<!-- - Get in bed -->
+<!-- - Count sheep -->
+
+<!-- ## cucumber -->
+
+<!-- <div class="fragment" data-fragment-index="2"> -->
+<!-- - bread -->
+<!-- </div> -->
+
+<!-- \ -->
+
+<!-- <div class="fragment" data-fragment-index="1"> -->
+<!-- - cheese -->
+<!--      - cake -->
+<!--      - sandwich -->
+<!--      - ... -->
+<!-- </div> -->
+
+<!-- \ -->
+
+<!-- <div class="fragment" data-fragment-index="3"> -->
+<!-- - **eggs** -->
+<!--     - tomato -->
+<!--     - banana -->
+<!-- </div> -->
