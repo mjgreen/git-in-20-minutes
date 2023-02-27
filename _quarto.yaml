@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!*.Rmd"
 
 website:
   title: "git in 20 minutes"
