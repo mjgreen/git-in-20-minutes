@@ -10,7 +10,7 @@ website:
   site-url: "https://github.com/mjgreen/git-in-20-minutes/"
   description: "training sessions in git et al"
   #favicon: img/logo.png
-  #google-analytics: "G-9KH9D5JQEX"
+  google-analytics: "G-VJ3TCXTLSH"
   navbar:
     right:
       - about.qmd
