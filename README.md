@@ -10,9 +10,13 @@ Open Science Session at BU
 * collaboration using pull requests 
 * diffs
 * gitkraken
-* facilitates working on mutiple machines
+* facilitates working on multiple machines
 * easy websites with github pages
 * distribute files (e.g., supplementary materials for a journal article)
 
 ## Cons
 * can't see inside docx and xlsx 
+
+## recommended tools
+* github desktop
+* vscode (true plain text editor)
