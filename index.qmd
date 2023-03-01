@@ -1,1 +1,50 @@
-# git in 20 minutes
+---
+title: "git in 20 minutes"
+subtitle: "open science tools"
+author: "Matt Green"
+date: "2023/3/8"
+date-format: "MMMM D, YYYY"
+format:
+  revealjs: 
+    menu: true
+    progress: true
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    multiplex: true
+    logo: images/GitHub-logo.png
+    css: styles.css
+    footer: <https://github.com>
+---
+
+
+## Hello, There
+
+This presentation will tell you about git
+
+::: footer
+Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
+:::
+
+## Features 1/2
+
+* remote backup to github.com is like onedrive except *you* control when it syncs
+* time travel concept like apple time machine except *you* say what counts as an entry
+* version control but better than naming files after the version they represent
+* branching 
+* collaboration using pull requests 
+
+## Features 2/2
+* diffs
+* gitkraken
+* facilitates working on multiple machines
+* easy websites with github pages
+* distribute files (e.g., supplementary materials for a journal article)
+
+## Cons
+* can't see inside docx and xlsx 
+
+## recommended tools
+* github desktop
+* vscode (true plain text editor)
