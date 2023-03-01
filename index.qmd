@@ -13,7 +13,7 @@ format:
     chalkboard: 
       buttons: true
     preview-links: auto
-    multiplex: true
+    multiplex: false
     logo: images/GitHub-logo.png
     css: styles.css
     footer: <https://mjgreen.github.io/git-in-20-minutes>
