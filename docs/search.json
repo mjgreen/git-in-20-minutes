@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html#hello-there",
+    "href": "index.html#hello-there",
+    "title": "git in 20 minutes",
+    "section": "Hello, There",
+    "text": "Hello, There\nThis presentation will tell you about git\n\nLearn more: Syntax Highlighting"
+  },
+  {
+    "objectID": "index.html#features-12",
+    "href": "index.html#features-12",
+    "title": "git in 20 minutes",
+    "section": "Features 1/2",
+    "text": "Features 1/2\n\nremote backup to github.com is like onedrive except you control when it syncs\ntime travel concept like apple time machine except you say what counts as an entry\nversion control but better than naming files after the version they represent\nbranching\ncollaboration using pull requests"
+  },
+  {
+    "objectID": "index.html#features-22",
+    "href": "index.html#features-22",
+    "title": "git in 20 minutes",
+    "section": "Features 2/2",
+    "text": "Features 2/2\n\ndiffs\ngitkraken\nfacilitates working on multiple machines\neasy websites with github pages\ndistribute files (e.g., supplementary materials for a journal article)"
+  },
+  {
+    "objectID": "index.html#cons",
+    "href": "index.html#cons",
+    "title": "git in 20 minutes",
+    "section": "Cons",
+    "text": "Cons\n\ncan’t see inside docx and xlsx"
+  },
+  {
+    "objectID": "index.html#recommended-tools",
+    "href": "index.html#recommended-tools",
+    "title": "git in 20 minutes",
+    "section": "recommended tools",
+    "text": "recommended tools\n\ngithub desktop\nvscode (true plain text editor)\n\n\n\n\nhttps://mjgreen.github.io/git-in-20-minutes"
+  }
+]

@@ -6,6 +6,7 @@ date: "2023/3/8"
 date-format: "MMMM D, YYYY"
 format:
   revealjs: 
+    output-dir: docs
     menu: true
     progress: true
     slide-number: true
