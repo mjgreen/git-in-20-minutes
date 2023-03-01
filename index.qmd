@@ -15,7 +15,7 @@ format:
     multiplex: true
     logo: images/GitHub-logo.png
     css: styles.css
-    footer: <https://github.com>
+    footer: <https://mjgreen.github.io/git-in-20-minutes>
 ---
 
 
