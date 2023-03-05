@@ -32,7 +32,7 @@
     "href": "index.html#when-osf-might-be-better",
     "title": "git in 20 minutes",
     "section": "when OSF might be better",
-    "text": "when OSF might be better\n\nIf your files are MS Office\n\ngit can’t see inside binaries"
+    "text": "when OSF might be better\n\nIf your files are MS Office\n\ngit can’t see inside binaries\n\nIf your collaborators don’t use git\n\nunless you want to teach them"
   },
   {
     "objectID": "index.html#commit-push-pull",

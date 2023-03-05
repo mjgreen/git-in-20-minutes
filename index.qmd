@@ -74,6 +74,8 @@ Speaker notes go here.
 ## when OSF might be better
   * If your files are MS Office
     * git can't see inside binaries
+  * If your collaborators don't use git
+    * unless you want to teach them
   
 ## _commit_; _push_; _pull_
 
