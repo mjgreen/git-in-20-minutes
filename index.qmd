@@ -64,12 +64,17 @@ Speaker notes go here.
 ## horses for courses
 
 * Choose the right tool for the job
-  * Glasgow stats books: 
+  * Glasgow stats books: https://psyteachr.github.io/
     * Github Pages for students reading the books; 
     * github repo for staff collaborating on writing the books
     * Lisa's github repo for developing the templates in R
     * Emily's OSF for journal article on data viz
-
+  * r4ds: https://r4ds.had.co.nz/
+  
+## when OSF might be better
+  * If your files are MS Office
+    * git can't see inside binaries
+  
 ## _commit_; _push_; _pull_
 
 * When you `commit`, you make a stable point on your local computer ...

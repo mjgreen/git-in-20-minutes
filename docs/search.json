@@ -25,7 +25,14 @@
     "href": "index.html#horses-for-courses",
     "title": "git in 20 minutes",
     "section": "horses for courses",
-    "text": "horses for courses\n\nChoose the right tool for the job\n\nGlasgow stats books:\n\nGithub Pages for students reading the books;\ngithub repo for staff collaborating on writing the books\nLisa’s github repo for developing the templates in R\nEmily’s OSF for journal article on data viz"
+    "text": "horses for courses\n\nChoose the right tool for the job\n\nGlasgow stats books: https://psyteachr.github.io/\n\nGithub Pages for students reading the books;\ngithub repo for staff collaborating on writing the books\nLisa’s github repo for developing the templates in R\nEmily’s OSF for journal article on data viz\n\nr4ds: https://r4ds.had.co.nz/"
+  },
+  {
+    "objectID": "index.html#when-osf-might-be-better",
+    "href": "index.html#when-osf-might-be-better",
+    "title": "git in 20 minutes",
+    "section": "when OSF might be better",
+    "text": "when OSF might be better\n\nIf your files are MS Office\n\ngit can’t see inside binaries"
   },
   {
     "objectID": "index.html#commit-push-pull",
