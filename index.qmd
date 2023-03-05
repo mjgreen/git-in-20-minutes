@@ -38,11 +38,13 @@ engine: knitr
   * A. OneDrive controls sync
 * Q. Who controls when GitHub files sync?
   * A. You control sync
-* Q. Who controls when OSF files sync?
-  * A. umm, what's sync?
+<!-- * Q. Who controls when OSF files sync? -->
+<!--   * A. umm, what's sync? -->
 ::::
 
-
+::: {.notes}
+Speaker notes go here.
+:::
 
 ## git as 'aid' climbing
 
@@ -58,6 +60,15 @@ engine: knitr
 :::
 
 ::::
+
+## horses for courses
+
+* Choose the right tool for the job
+  * Glasgow stats books: 
+    * Github Pages for students reading the books; 
+    * github repo for staff collaborating on writing the books
+    * Lisa's github repo for developing the templates in R
+    * Emily's OSF for journal article on data viz
 
 ## _commit_; _push_; _pull_
 
