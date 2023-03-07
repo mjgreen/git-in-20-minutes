@@ -25,14 +25,21 @@
     "href": "index.html#horses-for-courses",
     "title": "git in 20 minutes",
     "section": "horses for courses",
-    "text": "horses for courses\n\nChoose the right tool for the job\n\nGlasgow stats books: https://psyteachr.github.io/\n\nGithub Pages for students reading the books;\ngithub repo for staff collaborating on writing the books\nLisa’s github repo for developing the templates in R\nEmily’s OSF for journal article on data viz\n\nr4ds: https://r4ds.had.co.nz/"
+    "text": "horses for courses\n\nChoose the right tool for the job\n\nGlasgow stats books: https://psyteachr.github.io/\n\nGithub Pages for students reading the books;\ngithub repo for staff collaborating on writing the books\nLisa’s github repo for developing the templates in R\nEmily’s OSF https://osf.io/bj83f/ for journal article on data viz\n\nr4ds: https://r4ds.had.co.nz/"
   },
   {
     "objectID": "index.html#when-osf-might-be-better",
     "href": "index.html#when-osf-might-be-better",
     "title": "git in 20 minutes",
     "section": "when OSF might be better",
-    "text": "when OSF might be better\n\nIf your files are MS Office\n\ngit can’t see inside binaries\n\nIf your collaborators don’t use git\n\nunless you want to teach them"
+    "text": "when OSF might be better\n\nWhen your files are MS Office\n\nbecause git can’t see inside binaries\n\nWhen your collaborators don’t use git\n\nunless you want to teach them"
+  },
+  {
+    "objectID": "index.html#github-use-case",
+    "href": "index.html#github-use-case",
+    "title": "git in 20 minutes",
+    "section": "github use case",
+    "text": "github use case\n\nPhD student learning an advanced analysis & plots\n\nrepo\nlogs\nstart with a script that does the thing\ninfer incrementally how the thing is done"
   },
   {
     "objectID": "index.html#commit-push-pull",

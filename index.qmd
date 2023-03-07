@@ -64,18 +64,26 @@ Speaker notes go here.
 ## horses for courses
 
 * Choose the right tool for the job
-  * Glasgow stats books: https://psyteachr.github.io/
+  * Glasgow stats books: [https://psyteachr.github.io/](https://psyteachr.github.io/)
     * Github Pages for students reading the books; 
     * github repo for staff collaborating on writing the books
     * Lisa's github repo for developing the templates in R
-    * Emily's OSF for journal article on data viz
-  * r4ds: https://r4ds.had.co.nz/
+    * Emily's **OSF** [https://osf.io/bj83f/](https://osf.io/bj83f/) for journal article on data viz
+  * r4ds: [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/)
   
 ## when OSF might be better
-  * If your files are MS Office
-    * git can't see inside binaries
-  * If your collaborators don't use git
+  * When your files are MS Office
+    * because git can't see inside binaries
+  * When your collaborators don't use git
     * unless you want to teach them
+    
+## github use case
+
+* PhD student learning an advanced analysis & plots
+  * [repo](https://github.com/mjgreen/mc-training)
+  * [logs](https://mjgreen.github.io/mc-training)
+  * start with a script that does the thing
+  * infer incrementally how the thing is done
   
 ## _commit_; _push_; _pull_
 
