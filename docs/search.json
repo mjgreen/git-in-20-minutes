@@ -4,14 +4,21 @@
     "href": "index.html#github-is-like-osf",
     "title": "git in 20 minutes",
     "section": "GitHub is like OSF",
-    "text": "GitHub is like OSF\n\na website\n\nstore an article\nstore supplementary materials\nmake them available for download"
+    "text": "GitHub is like OSF\n\n\na website\n\nstore an article\nstore supplementary materials\nmake them available for download"
   },
   {
     "objectID": "index.html#github-is-like-onedrive",
     "href": "index.html#github-is-like-onedrive",
     "title": "git in 20 minutes",
     "section": "GitHub is like OneDrive",
-    "text": "GitHub is like OneDrive\n\n\nshared files & collaborative authoring\none master version & time travel\nbut …\nQ. Who controls when OneDrive files sync?\n\nA. OneDrive controls sync\n\nQ. Who controls when GitHub files sync?\n\nA. You control sync  \n\n\n\n\nSpeaker notes go here."
+    "text": "GitHub is like OneDrive\n\n\nshared files & collaborative authoring\none master version & time travel\nbut …\nQ. Who controls when OneDrive files sync?\n\nA. OneDrive controls sync\n\nQ. Who controls when GitHub files sync?\n\nA. You control sync"
+  },
+  {
+    "objectID": "index.html#when-osf-might-be-better",
+    "href": "index.html#when-osf-might-be-better",
+    "title": "git in 20 minutes",
+    "section": "when OSF might be better",
+    "text": "when OSF might be better\n\nWhen your files are MS Office\n\nbecause git can’t see inside binaries\n\nWhen your collaborators don’t use git\n\nunless you want to teach them"
   },
   {
     "objectID": "index.html#git-as-aid-climbing",
@@ -21,18 +28,18 @@
     "text": "git as ‘aid’ climbing\n\n\n\n\n\nIf this guy slips in a minute, he only falls back to the last bit of ‘protection’ - the spike he hammered in here a moment ago.\ngit has this concept too. When you reach a stable point, you do a “commit” action. If you make a mess after that, you can “reset” to get back to that stable point."
   },
   {
+    "objectID": "index.html#a-look-at-a-github-repo",
+    "href": "index.html#a-look-at-a-github-repo",
+    "title": "git in 20 minutes",
+    "section": "a look at a github repo",
+    "text": "a look at a github repo\n\n?show the vagueness repo"
+  },
+  {
     "objectID": "index.html#horses-for-courses",
     "href": "index.html#horses-for-courses",
     "title": "git in 20 minutes",
     "section": "horses for courses",
     "text": "horses for courses\n\nChoose the right tool for the job\n\nGlasgow stats books: https://psyteachr.github.io/\n\nGithub Pages for students reading the books;\ngithub repo for staff collaborating on writing the books\nLisa’s github repo for developing the templates in R\nEmily’s OSF https://osf.io/bj83f/ for journal article on data viz\n\nr4ds: https://r4ds.had.co.nz/"
-  },
-  {
-    "objectID": "index.html#when-osf-might-be-better",
-    "href": "index.html#when-osf-might-be-better",
-    "title": "git in 20 minutes",
-    "section": "when OSF might be better",
-    "text": "when OSF might be better\n\nWhen your files are MS Office\n\nbecause git can’t see inside binaries\n\nWhen your collaborators don’t use git\n\nunless you want to teach them"
   },
   {
     "objectID": "index.html#github-use-case",

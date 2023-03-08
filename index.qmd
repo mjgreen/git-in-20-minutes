@@ -23,10 +23,12 @@ engine: knitr
 
 ## GitHub is like OSF
 
+:::: incremental
 * a website
   * store an article
   * store supplementary materials
   * make them available for download
+::::
 
 ## GitHub is like OneDrive
 
@@ -42,9 +44,11 @@ engine: knitr
 <!--   * A. umm, what's sync? -->
 ::::
 
-::: {.notes}
-Speaker notes go here.
-:::
+## when OSF might be better
+  * When your files are MS Office
+    * because git can't see inside binaries
+  * When your collaborators don't use git
+    * unless you want to teach them
 
 ## git as 'aid' climbing
 
@@ -61,6 +65,11 @@ Speaker notes go here.
 
 ::::
 
+## a look at a github repo
+
+* ?show the vagueness [repo](https://github.com/mjgreen/vagueness/)
+
+
 ## horses for courses
 
 * Choose the right tool for the job
@@ -71,12 +80,6 @@ Speaker notes go here.
     * Emily's **OSF** [https://osf.io/bj83f/](https://osf.io/bj83f/) for journal article on data viz
   * r4ds: [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/)
   
-## when OSF might be better
-  * When your files are MS Office
-    * because git can't see inside binaries
-  * When your collaborators don't use git
-    * unless you want to teach them
-    
 ## github use case
 
 * PhD student learning an advanced analysis & plots
